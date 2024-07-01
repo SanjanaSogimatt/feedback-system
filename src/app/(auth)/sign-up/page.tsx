@@ -18,7 +18,7 @@ import { Loader2 } from "lucide-react"
 import { useForm } from "react-hook-form"
 
 
-const page = () => {
+const Page = () => {
     const [username,setUsername] = useState('') 
     const [usernameMessage,setUsernameMessage] = useState('')
     const [isCheckingUsernmae,setIsCheckingUsername] = useState(false)
@@ -161,4 +161,4 @@ const page = () => {
         </div>
     )
 }
-export default page
+export default Page
